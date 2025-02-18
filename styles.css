@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
+
+/* Reset some default styles */
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(resources/gradient-bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Add some styles for body*/
+
+   .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    
+   }
+   .player{
+    background-color: #212936;
+    padding: 1rem;
+    border-radius: 20px;
+   }
+   .player h5{
+    color:#E5E7EB;
+   }
+   p{
+    color: #9CA3AF;
+   }
+   .controls>button{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0.5rem;
+    margin: 25px;
+    
+    
+   }
+   button:hover{
+    cursor: pointer;
+    background-color: aqua;
+   }
+   
+   #play> img{
+    width: 50px;
+    height: 50px;
+    background-color: #C93B76;
+    border-radius: 50%;
+
+   
+
+
+   }
+   img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+   
+   }
+   .time{
+    display: flex;
+    justify-content: space-between;
+    color: #4D5562;
+   }
+   input[type="range"]{
+    width: 100%;
+    appearance: none;
+    outline: none;
+    background: #C93B76 !important;
+    border-radius: 4px;
+    height: 6px;
+    margin: 5px;
+   }
+  
+
+@media screen and (min-width: 720px) {
+    .logo {
+        display: initial;
+    }
+
+    .get-started {
+        width: auto;
+    }
+
+    main {
+        flex-direction: row;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+  }

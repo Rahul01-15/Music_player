@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>MUSIC PLAYER</title>
+    
+</head>
+<body>
+    
+<div class="container">
+    <div class="player" id="player">
+       <img id="cover" src="resources/cover-1.jpg" alt="song-1">
+       <h5 id="title">Forest Lullaby</h5>
+       <p id="author">Lesfm</p>
+       <div class="time">
+        <span id="currentTime">0:00</span>
+        <span id="duration">0:00</span>
+       </div>
+       <input type="range" id="progressBar" min="0" max="100" value="0">
+       <div class="controls">
+              <button id="prev" class="control">
+                <img src="resources/Stop_and_play_fill-1.svg" alt="prev">
+              </button>
+              <button   id="play"class="control">
+                <img  src="resources/Play_fill.svg" alt="play"  id="playIcon">
+              </button>
+              <button id="next" class="control">
+                <img src="resources/Stop_and_play_fill_reverse.svg" alt="next">
+              </button>
+       </div>
+    </div>
+</div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
