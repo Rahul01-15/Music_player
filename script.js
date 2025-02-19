@@ -8,7 +8,7 @@ const songs = [
   {
     title: "lost in the city lights",
     author: "Artist 2",
-    src: "/resources/lost-in-city-lights-145038.mp3",
+    src: "resources/lost-in-city-lights-145038.mp3",
     img: "resources/cover-2.jpg",
   },
 ];
