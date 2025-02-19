@@ -38,7 +38,7 @@ function playPause() {
 
     if (audio.paused) {
         audio.play();
-        playIcon.src = "/resources/pause-fill.svg";
+        playIcon.src = "resources/pause-fill.svg";
        
     } else {
         audio.pause();
@@ -52,7 +52,7 @@ function nextSong() {
   currentSongIndex = (currentSongIndex + 1) % songs.length;
   loadSong(currentSongIndex);
   audio.play();
-  playIcon.src = "/resources/pause-fill.svg";
+  playIcon.src = "resources/pause-fill.svg";
   
 }
 
@@ -61,7 +61,7 @@ function prevSong() {
   currentSongIndex = (currentSongIndex - 1+songs.length) % songs.length;
   loadSong(currentSongIndex);
   audio.play();
-  playIcon.src = "/resources/pause-fill.svg";
+  playIcon.src = "resources/pause-fill.svg";
   
 }
 
